@@ -15,4 +15,5 @@ public class Region extends BaseModel{
     private String name;
     @OneToMany
     private List<Theatre> theatres;
+
 }
